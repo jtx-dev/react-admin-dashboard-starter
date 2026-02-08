@@ -1,16 +1,88 @@
-# React + Vite
+# React Admin Dashboard Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## A clean and lightweight React Admin Dashboard Starter built with modern React practices.
 
-Currently, two official plugins are available:
+This project provides a solid foundation for admin panels, internal tools, and SaaS back-offices, focusing on clarity, usability, and extensibility — without relying on heavy UI frameworks.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##✨ Features
 
-## React Compiler
+- 🔐 Authentication flow (demo-ready)
+- 📊 Admin layout with sidebar and header
+- 👥 Users management (CRUD)
+- ✏️ Create, edit and delete users
+- ⚠️ Confirmation modal for destructive actions
+- 💾 LocalStorage persistence
+- 🧩 Reusable modals (Create / Edit / Confirm Delete)
+- 🔔 Toast notifications (non-blocking UX feedback)
+- 🎯 Clean and scalable project structure
+- 🎨 Custom CSS (no UI libraries)
+- 📸 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Login System
+![Login](screenshots/login.png)
+## Dashboard Layout
+![Dashboard](screenshots/dashboard.png)
+## Users Management
+![Users](screenshots/users.png)
+## Create / Edit User
+![User Modal](screenshots/user-modal.png)
+## Confirm Delete
+![Confirm Delete](screenshots/confirm-delete.png)
 
-## Expanding the ESLint configuration
+## 🏗️ Project Structure
+src/
+ ├ components/
+ │   ├ Sidebar.jsx
+ │   ├ Header.jsx
+ │   ├ UserModal.jsx
+ │   ├ ConfirmModal.jsx
+ │   └ Toast.jsx
+ ├ pages/
+ │   ├ Login.jsx
+ │   ├ Dashboard.jsx
+ │   └ Users.jsx
+ ├ services/
+ │   ├ auth.service.js
+ │   └ users.service.js
+ ├ hooks/
+ │   └ useToast.js
+ ├ layouts/
+ │   └ AdminLayout.jsx
+ ├ styles/
+ │   └ *.css
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+1. 1️⃣ Install dependencies
+```npm install```
+
+2. 2️⃣ Run the project
+```npm run dev```
+
+## 🧠 How it works
+- Authentication
+- Authentication is simulated using localStorage.
+- It can easily be replaced with a real authentication system.
+- Users CRUD
+- Create new users
+- Edit existing users
+- Delete users with confirmation
+- Data is persisted using localStorage
+
+## 🎯 Use cases
+### This project is ideal for:
+- Admin dashboards
+- Internal company tools
+- SaaS back-office panels
+- Freelance starter projects
+- Learning modern React architecture
+
+## 🛠️ Tech Stack
+- React
+- Vite
+- React Router
+- Vanilla CSS
+- LocalStorage
+
+## 📄 License
+
+Free to use and modify for personal or commercial projects.
