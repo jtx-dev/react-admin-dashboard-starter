@@ -4,7 +4,7 @@
 
 This project provides a solid foundation for admin panels, internal tools, and SaaS back-offices, focusing on clarity, usability, and extensibility — without relying on heavy UI frameworks.
 
-##✨ Features
+## ✨ Features
 
 - 🔐 Authentication flow (demo-ready)
 - 📊 Admin layout with sidebar and header
@@ -30,6 +30,7 @@ This project provides a solid foundation for admin panels, internal tools, and S
 ![Confirm Delete](screenshots/confirm-delete.png)
 
 ## 🏗️ Project Structure
+```text
 src/
  ├ components/
  │   ├ Sidebar.jsx
@@ -50,7 +51,7 @@ src/
  │   └ AdminLayout.jsx
  ├ styles/
  │   └ *.css
-
+```
 ## 🚀 Getting Started
 1. 1️⃣ Install dependencies
 ```npm install```
