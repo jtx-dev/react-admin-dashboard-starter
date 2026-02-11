@@ -1,4 +1,4 @@
-# React Admin Dashboard Starter
+<img width="996" height="587" alt="image" src="https://github.com/user-attachments/assets/d92bd421-97de-4da4-82fc-8db886638ad4" /># React Admin Dashboard Starter
 
 ## A clean and lightweight React Admin Dashboard Starter built with modern React practices.
 
@@ -28,7 +28,8 @@ This project provides a solid foundation for admin panels, internal tools, and S
 ![User Modal](screenshots/user-modal.png)
 ## Confirm Delete
 ![Confirm Delete](screenshots/confirm-delete.png)
-
+## Flowchart
+![Login Flowchart](screenshots/Diagrama-flujo-login.png)
 ## 🏗️ Project Structure
 ```text
 src/
