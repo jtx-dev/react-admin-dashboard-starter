@@ -1,4 +1,4 @@
-<img width="996" height="587" alt="image" src="https://github.com/user-attachments/assets/d92bd421-97de-4da4-82fc-8db886638ad4" /># React Admin Dashboard Starter
+# React Admin Dashboard Starter
 
 ## A clean and lightweight React Admin Dashboard Starter built with modern React practices.
 
